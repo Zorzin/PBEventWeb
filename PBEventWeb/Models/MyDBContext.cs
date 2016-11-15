@@ -1,14 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Web;
+using MySql.Data.Entity;
 
 namespace PBEventWeb.Models
 {
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class MyDBContext : DbContext
     {
-        public MyDBContext() : base("CS") { }
+        public MyDBContext() : base("MyDbContextConnectionString")
+        {
+            Database.SetInitializer<MyDBContext>(new MyDBInitializer());
+        }
 
         public DbSet<Event> Events { get; set; }
         public DbSet<Game> Games { get; set; }
@@ -46,11 +52,12 @@ namespace PBEventWeb.Models
                 .WithRequired()
                 .HasForeignKey(c => c.UserID);
         **/
-
+            
             modelBuilder.Entity<Event>()
                 .HasOptional(s => s.Game) // Mark Address property optional in Student entity
                 .WithRequired(ad => ad.Event); // mark Student property as required in StudentAddress entity. Cannot save StudentAddress without Student
-
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            base.OnModelCreating(modelBuilder);
 
         }
     }

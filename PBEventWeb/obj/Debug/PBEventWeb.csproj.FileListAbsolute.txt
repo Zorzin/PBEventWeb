@@ -55,5 +55,11 @@ C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\
 C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.dll
 C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.pdb
 C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.csprojResolveAssemblyReference.cache
-C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.Migrations.Init.resources
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\Google.Protobuf.dll
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\MySql.Data.dll
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\Google.Protobuf.xml
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\bin\MySql.Data.xml
+C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.Migrations.initmysql.resources
 C:\Users\Zorzin\documents\visual studio 2015\Projects\PBEventWeb\PBEventWeb\obj\Debug\PBEventWeb.csproj.GenerateResource.Cache
